@@ -37,11 +37,6 @@
 }
 
 @media (max-width: 560px) {
-    .banner.section,
-    .banner.section .row {
-        height: 50vh;
-    }
-
     .banner h1,
     .banner p {
         width: 100%;
@@ -49,5 +44,18 @@
 
     .form-wrapper {
         padding: 0;
+    }
+
+    .section.purple h2 {
+        text-align: center;
+    }
+
+    p.width-60 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .form-wrapper.small {
+        width: 100%;
     }
 }
