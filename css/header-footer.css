@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--header-background);
+    background-color: transparent;
     min-height: unset;
     position: absolute;
     z-index: 99;
