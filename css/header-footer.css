@@ -1,5 +1,5 @@
 .header {
-    background-color: var(--primary);
+    background-color: var(--header-background);
     min-height: unset;
     position: absolute;
     z-index: 99;
@@ -194,7 +194,7 @@
 .footer {
     min-height: unset;
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--header-background);
 }
 
 .footer .row {
