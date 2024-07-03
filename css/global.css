@@ -281,6 +281,11 @@ img {
     transition: border-bottom 200ms ease;
 }
 
+.form-wrapper input::placeholder {
+    color: var(--white);
+    opacity: 1;
+  }
+
 .form-wrapper input:focus {
     transition: border-bottom 200ms ease;
     border-bottom: 2px solid var(--white);
